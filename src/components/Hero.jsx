@@ -5,7 +5,7 @@ import { ComputersCanvas } from "./canvas";
 import './style.css'
 
 // import github from '../assets/github.png'
-// import linkedin from '../assets/linkedin.svg'
+import discord from '../assets/discord.svg'
 import whatsapp from '../assets/whatsapp.png'
 import telegram from '../assets/telegram.png'
 
@@ -16,17 +16,17 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+          <div className='w-5 h-5 rounded-full bg-[#651FFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            <span className='text-[#915EFF]'>GoldSpy</span>
+            <span className='text-[#651FFF]'>GoldSpy</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Ofrecemos servicios de espionaje <br className='sm:block hidden' />
-            ...para whatsapp y redes sociales
+            ...para WhatsApp y redes sociales
           </p>
         </div>
 
@@ -34,8 +34,11 @@ const Hero = () => {
           <div onClick={() => window.open("https://api.whatsapp.com/send/?phone=573022102471&text=Hola+me+interesa&type=phone_number&app_absent=0", "_blank")}>
               <img src={whatsapp} className="w-20" />
           </div>
-          <div onClick={() => window.open("https://www.linkedin.com/")}>
+          <div onClick={() => window.open("https://t.me/MasterHackServices", "_blank")}>
             <img src={telegram} className="w-20" />
+          </div>
+          <div onClick={() => window.open("https://discord.gg/VWC8b7a", "_blank")}>
+            <img src={discord} className="w-20" />
           </div>
         </div>
 

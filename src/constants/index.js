@@ -27,16 +27,20 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "#about",
+    title: "INTRO",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "#services",
+    title: "SERVICIOS",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "https://api.whatsapp.com/send/?phone=573022102471&text=Hola+me+interesa&type=phone_number&app_absent=0",
+    title: "WHATSAPP",
+  },
+  {
+    id: "#contact",
+    title: "EMAIL",
   },
 ];
 

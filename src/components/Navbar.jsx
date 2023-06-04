@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
-import mario from "../assets/mario.png"
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -43,10 +43,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={mario} alt='logo' className='w-9 h-9 object-contain' />
-          <p className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">| Home</p>
+          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <p className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">| INICIO</p>
         </Link>
-
+{/* MENU PRINCIPAL */}
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
@@ -56,11 +56,11 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={`${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
-
+{/* MENU PRINCIPAL */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
