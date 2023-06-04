@@ -2,6 +2,10 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import './style.css'
+
+import github from '../assets/github.png'
+import linkedin from '../assets/linkedin.svg'
 
 const Hero = () => {
   return (
@@ -16,15 +20,25 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
+            <span className='text-[#915EFF]'>GoldSpy</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            Ofrecemos servicios de espionaje <br className='sm:block hidden' />
+            ...para whatsapp y redes sociales
           </p>
         </div>
-      </div>
 
+        <div className="flex flex-row flex-wrap gap-5 z-10">
+          <div onClick={() => window.open("https://github.com/B0cz3k", "_blank")}>
+              <img src={github} className="w-20" />
+          </div>
+          <div onClick={() => window.open("https://www.linkedin.com/in/%C5%82ukasz-borak-401541256/")}>
+            <img src={linkedin} className="w-20" />
+          </div>
+        </div>
+
+      </div>
+      <br></br>
       <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
