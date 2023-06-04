@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Hackeo de WhatsApp",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Hackeo de Facebook",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Hackeo de Instagram",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Hackeo de Correos Electrónicos",
     icon: creator,
   },
 ];
@@ -116,11 +116,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Hack de WhatsApp",
+    company_name: "whatsapp",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,7 +129,7 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Hack de Facebook",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -142,7 +142,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "Hack de Instagram",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
@@ -155,7 +155,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Hack de Correos Electrónicos",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",

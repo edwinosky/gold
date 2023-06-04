@@ -4,8 +4,10 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import './style.css'
 
-import github from '../assets/github.png'
-import linkedin from '../assets/linkedin.svg'
+// import github from '../assets/github.png'
+// import linkedin from '../assets/linkedin.svg'
+import whatsapp from '../assets/whatsapp.png'
+import telegram from '../assets/telegram.png'
 
 const Hero = () => {
   return (
@@ -29,11 +31,11 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row flex-wrap gap-5 z-10">
-          <div onClick={() => window.open("https://github.com/B0cz3k", "_blank")}>
-              <img src={github} className="w-20" />
+          <div onClick={() => window.open("https://api.whatsapp.com/send/?phone=573022102471&text=Hola+me+interesa&type=phone_number&app_absent=0", "_blank")}>
+              <img src={whatsapp} className="w-20" />
           </div>
-          <div onClick={() => window.open("https://www.linkedin.com/in/%C5%82ukasz-borak-401541256/")}>
-            <img src={linkedin} className="w-20" />
+          <div onClick={() => window.open("https://www.linkedin.com/")}>
+            <img src={telegram} className="w-20" />
           </div>
         </div>
 
