@@ -33,13 +33,14 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_2s9c8qf',
+        'service_fcp7e0e',
         'template_9g35mfp',
         {
           from_name: form.name,
           to_name: "GoldSpy",
           from_email: form.email,
-          to_email: "contacto@goldspy.site",
+          reply_to: form.email,
+          to_email: "admin@goldspy.site",
           message: form.message,
         },
         '7kTqNpHLFm8kBaPMi'
@@ -81,35 +82,35 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Tu Nombre</span>
+            <span className='text-white font-medium mb-4'>TU NOMBRE</span>
             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Cual es tu nombre?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Tu Email</span>
+            <span className='text-white font-medium mb-4'>TU CORREO ELECTRÓNICO</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Cual es tu dirección de correo electrónico?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Tu Mensaje</span>
+            <span className='text-white font-medium mb-4'>MENSAJE</span>
             <textarea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Cuéntanos en que podemos ayudarte'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -118,7 +119,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Enviando..." : "ENVIAR"}
           </button>
         </form>
       </motion.div>

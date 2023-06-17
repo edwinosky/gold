@@ -24,7 +24,7 @@ import {
   tripguide,
   threejs,
 } from "../assets";
-
+{/* MENU PRINCIPAL */}
 export const navLinks = [
   {
     id: "#about",
@@ -35,6 +35,10 @@ export const navLinks = [
     title: "SERVICIOS",
   },
   {
+    id: "https://goldspy.site/panel",
+    title: "PANEL DE USUARIOS",
+  },
+  {
     id: "https://api.whatsapp.com/send/?phone=573022102471&text=Hola+me+interesa&type=phone_number&app_absent=0",
     title: "WHATSAPP",
   },
@@ -43,7 +47,7 @@ export const navLinks = [
     title: "EMAIL",
   },
 ];
-
+{/* MENU PRINCIPAL */}
 const services = [
   {
     title: "Hackeo de WhatsApp",
@@ -177,26 +181,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Conseguí monitorear el WhatsApp de mi esposo. Estuve espiando durante dos meses y descubrí que era infiel. Sé que es inmoral espiar conversaciones ajenas, pero vivir engañada es peor.",
+    name: "Sara Gonzalez",
+    designation: "",
+    company: "Hack de Whatsapp",
     image: "https://loremflickr.com/320/240/selfie,girl",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Gracias a este servicio puedo saber muy bien a que tipos de personas contrato en mi negocio",
+    name: "Cristian Cardona",
+    designation: "",
+    company: "Hack de Whatsapp",
     image: "https://loremflickr.com/320/240/selfie,boy",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Puedo mantenerme al dia con lo que hacen mis hijos, con quienes hablan y sobre que cosas",
+    name: "Marcela Giraldo",
+    designation: "",
+    company: "Hack de Instagram",
     image: "https://loremflickr.com/320/240/selfie,girl,asian",
   },
 ];
