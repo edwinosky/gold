@@ -121,38 +121,39 @@ const technologies = [
 const experiences = [
   {
     title: "Hack de WhatsApp",
-    company_name: "whatsapp",
+    company_name: "WHATSAPP",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2022 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Realice un seguimiento de todas las actividades que suceden en el teléfono sin ser detectado.",
+      "Tendrá acceso a todos los SMS, chats de WhatsApp, registros de llamadas, contactos, historial del navegador y ubicación GPS.",
+      "¡Todos tus datos se actualizan en tiempo real! Nos aseguramos de que esté al día con lo que sucede todo el día, todos los días.",
+      "No es necesario hacer jailbreak o rootear el dispositivo de destino para habilitar cualquier característica.",
+      "Puede rastrear todos los tipos de datos sin que el propietario del dispositivo lo sepa. La intervención del dispositivo es completamente indetectable.",
     ],
   },
   {
     title: "Hack de Facebook",
-    company_name: "Tesla",
+    company_name: "FACEBOOK",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Sin descarga. Puedes espiar el Facebook y Messenger Hackeado directamente desde nuestro panel web",
+      "Nuestro servicio de soporte funciona 7/24. Usted es atendido directamente por una persona especializada en Hacking",
+      "Eres 100% anónimo. Discreto y confidencial, toda la información que veas y descargue sera encriptada con la tecnología mas moderna en cifrado",
+      "Desde nuestro panel podrá hackear el Messenger de Facebook, esto realizará una copia de todos los mensajes, fotos, videos, notas de audio y podrá visualizarlo desde cualquier navegador web",
     ],
   },
   {
     title: "Hack de Instagram",
-    company_name: "Shopify",
+    company_name: "INSTAGRAM",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Sin descarga. Puedes espiar el Instagram directamente desde nuestro panel web",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -180,7 +181,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://loremflickr.com/320/240/selfie,girl",
   },
   {
     testimonial:
@@ -188,7 +189,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://loremflickr.com/320/240/selfie,boy",
   },
   {
     testimonial:
@@ -196,13 +197,13 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://loremflickr.com/320/240/selfie,girl,asian",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ESPIA A TU PAREJA",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -223,7 +224,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "PROTEGE A LOS NIÑOS",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -244,7 +245,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "SUPERVISA A TUS EMPLEADOS",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
