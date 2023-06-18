@@ -85,8 +85,8 @@ const Works = () => {
           registro de llamadas y cualquier tipo de información que maneje desde su teléfono inteligente. Lo mejor de todo es que ya no necesitas 
           descargar programas o llenar tu computador de virus, tampoco necesitas ir a esas paginas llenas de publicidad y que te mantienen horas haciendo encuestas para nada. <br></br>
           Solo debes de ponerte en contacto con uno de nuestros asesores autorizados, podrás hacerlo a traves de 
-          <a href="https://api.whatsapp.com/send/?phone=573022102471&text=Hola+me+interesa&type=phone_number&app_absent=0"> WhatsApp</a> 
-          o por <a href="#contact">Correo Electrónico</a> correo electrónico en una comunicación cifrada 
+          <a href="https://api.whatsapp.com/send/?phone=573022102471&text=Hola+me+interesa&type=phone_number&app_absent=0" target="_blank"> WhatsApp </a> 
+          o por <a href="#contact">Correo Electrónico</a> en una comunicación cifrada 
           de extremo a extremo para que mantengas tu privacidad. <br></br>
           Ofrecemos un servicio completamente seguro, serio y garantizado, al mismo tiempo que es discreto y confidencial.
           Trabajamos para cualquier país de Latinoamérica o Estados Unidos

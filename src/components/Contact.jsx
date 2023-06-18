@@ -48,7 +48,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Tu mensaje fue enviado. Nos pondremos en contacto contigo lo antes posible.");
+          alert("Tu mensaje fue enviado. Te responderemos en breves minutos");
 
           setForm({
             name: "",
@@ -60,7 +60,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahhh, algo salió mal. Inténtalo de nuevo.");
+          alert("Ahhh, algo salió mal. Inténtalo de nuevo o contacta usando WhatsApp");
         }
       );
   };
@@ -73,7 +73,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Ponerse en contacto</p>
+        <p className={styles.sectionSubText}>Comunicate con nosotros de inmediato</p>
         <h3 className={styles.sectionHeadText}>CONTACTO</h3>
 
         <form
