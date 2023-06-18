@@ -121,7 +121,17 @@ const Contact = () => {
           >
             {loading ? "Enviando..." : "ENVIAR"}
           </button>
+
+          <div id="contact-whatsapp" onClick={() => window.open("https://api.whatsapp.com/send/?phone=573022102471&text=Hola+me+interesa&type=phone_number&app_absent=0", "_blank")} className='bg-tertiary items-center rounded-xl text-white font-bold text-center shadow-md shadow-primary'>
+          <span className='blue-text-gradient text-[12px]'>PUEDES CONTACTAR A TRAVES DE WHATSAPP</span>
+          <p className="bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary cursor-pointer">AQUÍ</p>
+          {/* <img src="https://goldspy.site/logo-mini-min.png" width="20%" /> */}
+            
+          </div>
+
         </form>
+        
+          
       </motion.div>
 
       <motion.div

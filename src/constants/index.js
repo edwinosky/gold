@@ -39,7 +39,7 @@ export const navLinks = [
     title: "PANEL DE USUARIOS",
   },
   {
-    id: "https://api.whatsapp.com/send/?phone=573022102471&text=Hola+me+interesa&type=phone_number&app_absent=0",
+    id: "#contact-whatsapp",
     title: "WHATSAPP",
   },
   {
@@ -128,7 +128,7 @@ const experiences = [
     company_name: "WHATSAPP",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2022 - April 2023",
+    date: "SUPERVISA A TU PAREJA E HIJOS",
     points: [
       "Realice un seguimiento de todas las actividades que suceden en el teléfono sin ser detectado.",
       "Tendrá acceso a todos los SMS, chats de WhatsApp, registros de llamadas, contactos, historial del navegador y ubicación GPS.",
@@ -142,7 +142,7 @@ const experiences = [
     company_name: "FACEBOOK",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "NO ESPERES MAS, APROVECHA ESTA GRAN OPORTUNIDAD",
     points: [
       "Sin descarga. Puedes espiar el Facebook y Messenger Hackeado directamente desde nuestro panel web",
       "Nuestro servicio de soporte funciona 7/24. Usted es atendido directamente por una persona especializada en Hacking",
@@ -153,27 +153,27 @@ const experiences = [
   {
     title: "Hack de Instagram",
     company_name: "INSTAGRAM",
-    icon: shopify,
+    icon: meta,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "CONOCE A QUIEN CONTRATAS A EN TU NEGOCIO",
     points: [
       "Sin descarga. Puedes espiar el Instagram directamente desde nuestro panel web",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Solo es posible si la cuenta de instagram no esta con el `verified azul`",
+      "Podrás acceder a los mensajes privados y notificaciones",
+      "No tendrás que descargar programas ni tocar el móvil de la victima, todo se hace de manera remota",
     ],
   },
   {
     title: "Hack de Correos Electrónicos",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Gmail, Hotmail, Yahoo, iCloud",
+    icon: shopify,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "ACCEDE A SU UBICACION REAL LAS 24 HORAS AL DIA",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "El correo electrónico es la herramienta más utilizada por la mayoría de los usuarios de internet actualmente ",
+      "Se destaca por brindar funciones que facilitan la comunicación con rapidez y seguridad,",
+      "Podemos brindarte acceso rápido y completos a cuentas de Gmail, Outlook, Hotmail entre otras",
+      "En el caso de las cuentas Gmail, podrás acceder a contactos, fotos, información personal o bancaria y muchas cosas mas",
     ],
   },
 ];
@@ -209,65 +209,65 @@ const projects = [
   {
     name: "ESPIA A TU PAREJA",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "No vivas mas engañad@, verifica con quien anda tu pareja y lo que realmente dice de ti con otras personas",
     tags: [
       {
-        name: "react",
+        name: "parejas",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "infieles",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "saludmental",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "#contact",
   },
   {
     name: "PROTEGE A LOS NIÑOS",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "No dejes que tus hijos sean victimas del ciberacoso, ciudalos de personas malintencionadas, vigilados muy de cerca y tendrás la tranquilidad que necesitas",
     tags: [
       {
-        name: "react",
+        name: "ciberbullying",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "acoso",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "protección",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "#contact",
   },
   {
-    name: "SUPERVISA A TUS EMPLEADOS",
+    name: "VIGILALOS",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Ve lo que dicen tus amigos de ti cuando hablan con otras personas o vigila a los empleados de tu pequeño negocio",
     tags: [
       {
-        name: "nextjs",
+        name: "inseguridad",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "negocios",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "falsasamistades",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "#contact",
   },
 ];
 

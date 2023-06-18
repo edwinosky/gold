@@ -4,6 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .tacata-boton {
+  align-self: end;
+} */
+
+/* .outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  align-self: center;
+} */
+
+a {
+
+  color: yellowgreen;
+}
+
+.w-1\/2 {
+  width: 80%;
+}
+.h-1\/2 {
+  height: 80%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,12 +46,12 @@
   background: -webkit-linear-gradient(
     to right,
     #434343,
-    #000000
+    yellowgreen
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #434343,
-    #000000
+    yellowgreen
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
