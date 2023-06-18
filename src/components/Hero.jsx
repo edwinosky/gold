@@ -3,8 +3,6 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import './style.css'
-
-// import github from '../assets/github.png'
 import discord from '../assets/discord.svg'
 import whatsapp from '../assets/whatsapp.png'
 import telegram from '../assets/telegram.png'

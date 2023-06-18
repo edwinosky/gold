@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  instagram,
+  whatsapp,
+  face,
+  geo,
   carrent,
   jobit,
   tripguide,
@@ -126,7 +126,7 @@ const experiences = [
   {
     title: "Hack de WhatsApp",
     company_name: "WHATSAPP",
-    icon: starbucks,
+    icon: whatsapp,
     iconBg: "#383E56",
     date: "SUPERVISA A TU PAREJA E HIJOS",
     points: [
@@ -140,7 +140,7 @@ const experiences = [
   {
     title: "Hack de Facebook",
     company_name: "FACEBOOK",
-    icon: tesla,
+    icon: face,
     iconBg: "#E6DEDD",
     date: "NO ESPERES MAS, APROVECHA ESTA GRAN OPORTUNIDAD",
     points: [
@@ -153,7 +153,7 @@ const experiences = [
   {
     title: "Hack de Instagram",
     company_name: "INSTAGRAM",
-    icon: meta,
+    icon: instagram,
     iconBg: "#383E56",
     date: "CONOCE A QUIEN CONTRATAS A EN TU NEGOCIO",
     points: [
@@ -166,7 +166,7 @@ const experiences = [
   {
     title: "Hack de Correos Electrónicos",
     company_name: "Gmail, Hotmail, Yahoo, iCloud",
-    icon: shopify,
+    icon: geo,
     iconBg: "#E6DEDD",
     date: "ACCEDE A SU UBICACION REAL LAS 24 HORAS AL DIA",
     points: [
